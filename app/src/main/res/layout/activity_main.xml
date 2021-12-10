@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A67A5"
+    tools:context=".MainActivity">
+
+    <Button
+
+        android:id="@+id/spaceman"
+        android:layout_width="138dp"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="196dp"
+        android:background="@drawable/oval_button"
+        android:text="Фото"
+        android:textColor="#534D60"
+        android:textSize="15sp"
+        app:backgroundTint="#FF9800" />
+
+    <TextView
+        android:layout_width="257dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="40dp"
+        android:text="Р О С К О С М О С"
+        android:textColor="#FF9800"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/record"
+        android:layout_width="138dp"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/oval_button"
+        android:text="Запись в полёт"
+        android:textColor="#534D60"
+        android:textSize="15sp"
+        app:backgroundTint="#FF9800" />
+
+    <ImageButton
+        android:id="@+id/space"
+        android:layout_width="104dp"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="368dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/oval_button"
+        android:contentDescription="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_icon"
+        android:textColor="#534D60"
+        android:textSize="15sp"
+        app:backgroundTint="#FAF9F9" />
+
+</RelativeLayout>
